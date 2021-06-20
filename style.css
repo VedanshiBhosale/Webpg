@@ -1,0 +1,53 @@
+h1 {
+    background-color: rgb(241, 10, 10);
+    font-size: 90px;
+    font-weight: 400;
+    color: rgb(250, 248, 244);
+}
+
+* {
+    border: solid;
+}
+
+.header{
+    background-color: rgb(88, 203, 248);
+display:flex;
+justify-content: space-evenly;
+font-size: 20px;
+    font-weight: 400;
+    color: rgb(88, 203, 248);
+}
+.menu{
+    background-color:rgb(240, 206, 13);}
+
+.grid{
+    display:flex ;
+
+    background-color:rgb(217, 12, 235);
+ flex-wrap: wrap;
+
+ justify-content: space-between;
+}
+.fooder{
+    background-color:rgb(8, 243, 204);
+    color:rgb(3, 3, 3)
+
+}
+.item{
+    position: relative;
+    color: cornsilk;
+
+}
+.item p{
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    opacity:0;
+
+}
+.item:hover p{
+    opacity:5;
+    color: rgb(5, 5, 5);
+    font-size: 30px;
+}
